@@ -1,5 +1,5 @@
 #! /bin/bash
-## ./3.py -t t_kh_grjcxx -o 313146000099 -b 20180510   -u  tsyh -s  config/lfyh.json
+## ./3.py -t table -o org_nu -b 20180510   -u  bankname -s  config/lfyh.json
 #Below files are needed and also need config directory which include json file for username and password
 #loadBankOrg.py
 #onlyLoad.py

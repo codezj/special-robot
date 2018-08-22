@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-# ./3.py -t t_kh_grjcxx -o 313146000099 -b 20180510   -u  tsyh -s  config/lfyh.json
+# ## ./3.py -t table -o org_nu -b 20180510   -u  bankname -s  config/lfyh.json
 #1.py update based on previous script , it means include some methods which will not use 
 #2.py recreate scrpts , it means not used methods are removed
 #3.py add dict to remove one parameter which is org_no, when you input bank name, it will provide org_no from dic
