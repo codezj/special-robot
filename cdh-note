@@ -1,0 +1,9 @@
+Apache Hadoop stores and processes data in a distributed fashion. 
+To achieve this goal, Hadoop implements a master and slave model. 
+The namenode and jobtracker daemons are master daemons, whereas the datanode and tasktracker daemons are slave daemons.
+
+Namenode   master
+Secondary namenode   master
+Jobtracker master
+Datanode  slave
+Tasktracker slave
