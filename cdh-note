@@ -26,3 +26,7 @@ RPC: remote Procedure Call , it is used to ask application to do something from 
 
 
 Question? what is different for fsimage and eitds among namenode and the secondary namenode?
+
+[slots]
+
+Tasktrackers are configured to run a specific number of map and reduce tasks. These are called slots.
