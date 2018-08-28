@@ -7,3 +7,9 @@ Secondary namenode   master
 Jobtracker master
 Datanode  slave
 Tasktracker slave
+
+
+client -> [jobTracker] -> [taskTracker]
+
+The secondary namenode is a checkpoint service for the namenode daemon
+that performs periodic merging of the edits log and the fsimage file.
