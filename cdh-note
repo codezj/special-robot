@@ -15,3 +15,14 @@ The secondary namenode is a checkpoint service for the namenode daemon
 that performs periodic merging of the edits log and the fsimage file.
 
 the secondary namenode [namenode daemon] [edits] ->periodic merging<- [fsimage]
+
+
+Checkpoint Size: If the edits logfile reaches this checkpoint size, 
+the secondary namenode daemon will perform the checkpoint even if the check point period has not elapsed.
+
+Note: after performing checkpoint, edits logfile size will become very small or 0.
+
+RPC: remote Procedure Call , it is used to ask application to do something from remote pc via network.
+
+
+Question? what is different for fsimage and eitds among namenode and the secondary namenode?
